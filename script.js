@@ -85,3 +85,66 @@ function player6C() {
 	player6c = player6c + parseInt(x);
 	document.getElementById('amount6c').innerHTML = String(player6c);
 }
+
+//Subtract
+
+function player1Sm() {
+	var x = document.getElementById('player1s').value;
+	player1s = player1s - parseInt(x);
+	document.getElementById('amount1s').innerHTML = String(player1s);
+}
+function player2Sm() {
+	var x = document.getElementById('player2s').value;
+	player2s = player2s - parseInt(x);
+	document.getElementById('amount2s').innerHTML = String(player2s);
+}
+function player3Sm() {
+	var x = document.getElementById('player3s').value;
+	player3s = player3s - parseInt(x);
+	document.getElementById('amount3s').innerHTML = String(player3s);
+}
+function player4Sm() {
+	var x = document.getElementById('player4s').value;
+	player4s = player4s - parseInt(x);
+	document.getElementById('amount4s').innerHTML = String(player4s);
+}
+function player5Sm() {
+	var x = document.getElementById('player5s').value;
+	player5s = player5s - parseInt(x);
+	document.getElementById('amount5s').innerHTML = String(player5s);
+}
+function player6Sm() {
+	var x = document.getElementById('player6s').value;
+	player6s = player6s - parseInt(x);
+	document.getElementById('amount6s').innerHTML = String(player6s);
+}
+function player1Cm() {
+	var x = document.getElementById('player1c').value;
+	player1c = player1c - parseInt(x);
+	document.getElementById('amount1c').innerHTML = String(player1c);
+}
+function player2Cm() {
+	var x = document.getElementById('player2c').value;
+	player2c = player2c - parseInt(x);
+	document.getElementById('amount2c').innerHTML = String(player2c);
+}
+function player3Cm() {
+	var x = document.getElementById('player3c').value;
+	player3c = player3c - parseInt(x);
+	document.getElementById('amount3c').innerHTML = String(player3c);
+}
+function player4Cm() {
+	var x = document.getElementById('player4c').value;
+	player4c = player4c - parseInt(x);
+	document.getElementById('amount4c').innerHTML = String(player4c);
+}
+function player5Cm() {
+	var x = document.getElementById('player5c').value;
+	player5c = player5c - parseInt(x);
+	document.getElementById('amount5c').innerHTML = String(player5c);
+}
+function player6Cm() {
+	var x = document.getElementById('player6c').value;
+	player6c = player6c - parseInt(x);
+	document.getElementById('amount6c').innerHTML = String(player6c);
+}
